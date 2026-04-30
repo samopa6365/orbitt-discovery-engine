@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+body {
+  background: #0a0a0a;
+  color: #f5f1ea;
+  font-family: Inter, ui-sans-serif, system-ui;
+}
+.panel {
+  @apply rounded-[24px] border border-white/10 bg-white/[0.04] backdrop-blur-md shadow-[0_12px_30px_rgba(0,0,0,0.35)];
+}
